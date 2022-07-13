@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+}
+.btn {
+    width:50px;
+}
+.form{
+    text-align: center;
+    border: 10px solid rgb(161, 158, 158);
+    border-radius: 5px 5px;
+    background-color: rgb(161, 158, 158);
+    margin: 0px ;
+}
+.title{
+    margin: 10px;
+    width:85%;
+    border-radius: 5px 5px;
+}
+.notes{
+    margin: 10px;
+    width:85%;
+    border-radius: 10px 10px;
+}
+.btn{
+    width:25%;
+    border-radius: 5px 5px;
+    color: aliceblue;
+    border: 1px solid  aliceblue;
+    background-color: rgb(24, 77, 173);
+    padding: 10px;
+}
+.container h2 {
+    margin-left: 50px;
+}
+.note{
+    margin-top: 10px;
+    margin: 10px 40px 40px 40px;
+    border: 1px solid  rgb(161, 158, 158);
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px 10px;
+    background-color:  rgb(161, 158, 158);
+    display: inline-block;
+}
+button.delete-btn {
+    background-color: rgb(212, 19, 19);
+    border-radius: 5px 5px;
+    padding: 5px;
+    width:80px;
+}
+button.edit-btn {
+    background-color: rgb(24, 77, 173);
+    border-radius: 5px 5px;
+    padding: 5px;
+    width:80px;
+}
+.time{
+    font-size:x-small;
+}

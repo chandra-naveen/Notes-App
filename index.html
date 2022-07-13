@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Notes Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Notes Dashboard</a>
+        
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="form">
+        <label for="title"><b>Title </b></label>
+        <br>
+        <input type="text" placeholder="Enter Title" id="title" class="title">
+        <br>
+        <label for="notes"><b>Description </b></label>
+        <br>
+        <textarea placeholder="Your notes" id="des" class="notes" > </textarea>
+        <br>
+        <button onclick="add()" class="btn btn-primary"> Add </button>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Your Notes</h2>
+        <div id="notes">
+    
+                <div class="note">
+                    <h2 class="title"> $element.title </h2>
+                    <p class="des"> $element.description</p>
+                    <button class="delete-btn">Delete</button>
+                    <button class="edit-btn">Edit</button>
+                    <p class="time">    </p>
+                </div>
+            
+        </div>
+    </div>
+    <script src="notes.js"> </script>
+</body>
+</html>
